@@ -4,15 +4,12 @@
 
 File chooser plugin for Cordova.
 
+Modified from cordova-plugin-chooser by Cyph, in order to auto select the MxStats file from the device (MIME type changed to only accept "text/xml"). 
+Only works in Android.
+
 Install with Cordova CLI:
 
 	$ cordova plugin add cordova-plugin-chooser
-
-Supported Platforms:
-
-* Android
-
-* iOS
 
 ## API
 
